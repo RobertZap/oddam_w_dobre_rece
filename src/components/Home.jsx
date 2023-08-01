@@ -3,6 +3,9 @@ import Nav from "./Nav.jsx";
 
 import "/src/scss/Home.scss";
 import HomeImg from "./HomeImg.jsx";
+import ParagraphSection from "./ParagraphSectrion.jsx";
+import Decoration from "./Decoration.jsx";
+import CollectionSection from "./CollectionSection.jsx";
 
 function Home() {
   return (
@@ -17,6 +20,15 @@ function Home() {
           </div>
           <div className="nav_section">
             <Nav />
+          </div>
+          <div className="paragraf_section">
+            <ParagraphSection />
+          </div>
+          <div className="decoration">
+            <Decoration />
+          </div>
+          <div>
+            <CollectionSection />
           </div>
         </div>
       </div>
