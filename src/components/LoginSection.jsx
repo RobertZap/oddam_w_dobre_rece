@@ -1,3 +1,5 @@
+import "/src/scss/LoginSection.scss";
+
 function LoginSection() {
   return (
     <>

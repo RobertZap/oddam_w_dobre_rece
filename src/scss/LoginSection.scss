@@ -1,0 +1,22 @@
+.login_section {
+  color: #737373;
+  font-size: 13px;
+
+  .login_button {
+    margin-right: 20px;
+    padding: 9px 10px 9px 10px;
+  }
+  .create_button {
+    padding: 9px 10px 9px 10px;
+  }
+}
+
+.login_button:hover {
+  font-weight: bolder;
+  border: 2px solid #fad648;
+}
+
+.create_button:hover {
+  font-weight: bolder;
+  border: 2px solid #fad648;
+}

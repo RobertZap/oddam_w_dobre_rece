@@ -1,3 +1,4 @@
+import "/src/scss/Nav.scss";
 function Nav() {
   return (
     <>
