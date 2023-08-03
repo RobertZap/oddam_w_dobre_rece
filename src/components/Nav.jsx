@@ -6,7 +6,7 @@ function Nav() {
         <a href="#" className="start_button">
           Start
         </a>
-        <a href="#" className="info_button">
+        <a href="#simplesection" className="info_button">
           O co chodzi?
         </a>
         <a href="#" className="about_button">

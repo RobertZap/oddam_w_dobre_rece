@@ -7,6 +7,7 @@ import ParagraphSection from "./ParagraphSectrion.jsx";
 import Decoration from "./Decoration.jsx";
 import CollectionSection from "./CollectionSection.jsx";
 import ScoreSection from "./ScoreSection.jsx";
+import SimpleSectionLayout from "./SimpleSectionLayout.jsx";
 
 function Home() {
   return (
@@ -29,7 +30,6 @@ function Home() {
             <div className="decoration">
               <Decoration />
             </div>
-
             <div>
               <CollectionSection />
             </div>
@@ -39,6 +39,7 @@ function Home() {
       <div className="score">
         <ScoreSection />
       </div>
+      <SimpleSectionLayout />
     </>
   );
 }
