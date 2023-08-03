@@ -6,6 +6,7 @@ import HomeImg from "./HomeImg.jsx";
 import ParagraphSection from "./ParagraphSectrion.jsx";
 import Decoration from "./Decoration.jsx";
 import CollectionSection from "./CollectionSection.jsx";
+import ScoreSection from "./ScoreSection.jsx";
 
 function Home() {
   return (
@@ -21,16 +22,22 @@ function Home() {
           <div className="nav_section">
             <Nav />
           </div>
-          <div className="paragraf_section">
-            <ParagraphSection />
-          </div>
-          <div className="decoration">
-            <Decoration />
-          </div>
-          <div>
-            <CollectionSection />
+          <div className="right_side_section">
+            <div className="paragraph_section">
+              <ParagraphSection />
+            </div>
+            <div className="decoration">
+              <Decoration />
+            </div>
+
+            <div>
+              <CollectionSection />
+            </div>
           </div>
         </div>
+      </div>
+      <div className="score">
+        <ScoreSection />
       </div>
     </>
   );
