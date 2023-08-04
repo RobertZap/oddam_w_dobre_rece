@@ -26,9 +26,17 @@ function Nav() {
           {" "}
           O co chodzi?
         </Link>
-        <a href="#" className="about_button">
+        <Link
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+          onClick={move}
+          className="info_button"
+        >
           O nas
-        </a>
+        </Link>
         <a href="#" className="org_button">
           Fundacja i organizacje
         </a>

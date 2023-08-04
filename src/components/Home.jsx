@@ -8,6 +8,7 @@ import Decoration from "./Decoration.jsx";
 import CollectionSection from "./CollectionSection.jsx";
 import ScoreSection from "./ScoreSection.jsx";
 import SimpleSectionLayout from "./SimpleSectionLayout.jsx";
+import About from "./About.jsx";
 
 function Home() {
   return (
@@ -40,6 +41,7 @@ function Home() {
         <ScoreSection />
       </div>
       <SimpleSectionLayout />
+      <About />
     </>
   );
 }
