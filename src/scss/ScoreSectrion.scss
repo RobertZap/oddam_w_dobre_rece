@@ -1,95 +1,95 @@
 .score_container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 384px;
-  background-image: url("/src/assets/3 Columns Background.png");
-  background-size: cover;
-  background-position: center;
-  background-clip: padding-box;
-  position: relative;
-
-  .number {
-    font-size: 90px;
-    font-weight: lighter;
-    margin-top: 46px;
-  }
-
-  .title {
-    margin-top: 10px;
-    font-weight: lighter;
-    font-size: 18px;
-  }
-
-  .return_baggage {
-    width: 334px;
-    text-align: center;
-    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 384px;
+    background-image: url("/src/assets/3 Columns Background.png");
+    background-size: cover;
+    background-position: center;
+    background-clip: padding-box;
+    position: relative;
 
     .number {
-      font-size: 90px;
-      font-weight: lighter;
-      margin-top: 46px;
+        font-size: 90px;
+        font-weight: lighter;
+        margin-top: 46px;
     }
 
     .title {
-      margin-top: 10px;
-      font-weight: lighter;
-      font-size: 18px;
+        margin-top: 10px;
+        font-weight: lighter;
+        font-size: 18px;
     }
 
-    .description {
-      font-size: 16px;
-      font-weight: lighter;
-      margin-top: 28px;
-    }
-  }
+    .return_baggage {
+        width: 334px;
+        text-align: center;
+        margin: 0;
 
-  .support_organization {
-    width: 334px;
-    text-align: center;
-    margin: 0;
+        .number {
+            font-size: 90px;
+            font-weight: lighter;
+            margin-top: 46px;
+        }
 
-    .number {
-      font-size: 90px;
-      font-weight: lighter;
-      margin-top: 46px;
-    }
+        .title {
+            margin-top: 10px;
+            font-weight: lighter;
+            font-size: 18px;
+        }
 
-    .title {
-      margin-top: 10px;
-      font-weight: lighter;
-      font-size: 18px;
-    }
-
-    .description {
-      font-size: 16px;
-      font-weight: lighter;
-      margin-top: 28px;
-    }
-  }
-
-  .collection {
-    width: 334px;
-    text-align: center;
-    margin: 0;
-
-    .number {
-      font-size: 90px;
-      font-weight: lighter;
-      margin-top: 46px;
+        .description {
+            font-size: 16px;
+            font-weight: lighter;
+            margin-top: 28px;
+        }
     }
 
-    .title {
-      margin-top: 10px;
-      font-weight: lighter;
-      font-size: 18px;
+    .support_organization {
+        width: 334px;
+        text-align: center;
+        margin: 0;
+
+        .number {
+            font-size: 90px;
+            font-weight: lighter;
+            margin-top: 46px;
+        }
+
+        .title {
+            margin-top: 10px;
+            font-weight: lighter;
+            font-size: 18px;
+        }
+
+        .description {
+            font-size: 16px;
+            font-weight: lighter;
+            margin-top: 28px;
+        }
     }
 
-    .description {
-      font-size: 16px;
-      font-weight: lighter;
-      margin-top: 28px;
+    .collection {
+        width: 334px;
+        text-align: center;
+        margin: 0;
+
+        .number {
+            font-size: 90px;
+            font-weight: lighter;
+            margin-top: 46px;
+        }
+
+        .title {
+            margin-top: 10px;
+            font-weight: lighter;
+            font-size: 18px;
+        }
+
+        .description {
+            font-size: 16px;
+            font-weight: lighter;
+            margin-top: 28px;
+        }
     }
-  }
 }

@@ -11,39 +11,39 @@ import SimpleSectionLayout from "./SimpleSectionLayout.jsx";
 import About from "./About.jsx";
 
 function Home() {
-  return (
-    <>
-      <div className="home_container">
-        <div className="computer_img">
-          <HomeImg />
-        </div>
-        <div className="login_container">
-          <div className="login">
-            <LoginSection />
-          </div>
-          <div className="nav_section">
-            <Nav />
-          </div>
-          <div className="right_side_section">
-            <div className="paragraph_section">
-              <ParagraphSection />
+    return (
+        <>
+            <div className="home_container">
+                <div className="computer_img">
+                    <HomeImg />
+                </div>
+                <div className="login_container">
+                    <div className="login">
+                        <LoginSection />
+                    </div>
+                    <div className="nav_section">
+                        <Nav />
+                    </div>
+                    <div className="right_side_section">
+                        <div className="paragraph_section">
+                            <ParagraphSection />
+                        </div>
+                        <div className="decoration">
+                            <Decoration />
+                        </div>
+                        <div>
+                            <CollectionSection />
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div className="decoration">
-              <Decoration />
+            <div className="score">
+                <ScoreSection />
             </div>
-            <div>
-              <CollectionSection />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="score">
-        <ScoreSection />
-      </div>
-      <SimpleSectionLayout />
-      <About />
-    </>
-  );
+            <SimpleSectionLayout />
+            <About />
+        </>
+    );
 }
 
 export default Home;

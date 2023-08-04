@@ -3,11 +3,7 @@ import "./index.scss";
 import "./scss/settings/_normalize.scss";
 
 function App() {
-  return (
-    <>
-      <Home />
-    </>
-  );
+    return <Home />;
 }
 
 export default App;

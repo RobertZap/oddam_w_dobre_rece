@@ -1,32 +1,36 @@
 .about_container {
-  height: 935px;
-  display: flex;
-
-  .about {
-    background-color: #f0f1f1;
+    height: 935px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 958px;
-    &_header {
-      margin-bottom: 26px;
-      font-size: 38px;
+
+    .about {
+        background-color: #f0f1f1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 958px;
+
+        &_header {
+            margin-bottom: 26px;
+            font-size: 38px;
+        }
+
+        &_description {
+            margin-top: 55px;
+            font-size: 30px;
+        }
+
+        &_signature {
+            margin-top: 40px;
+            height: 148px;
+            position: relative;
+            left: 133px;
+        }
+
+        &_img {
+            max-width: 50%;
+            height: 935px;
+        }
     }
-    &_description {
-      margin-top: 55px;
-      font-size: 30px;
-    }
-    &_signature {
-      margin-top: 40px;
-      height: 148px;
-      position: relative;
-      left: 133px;
-    }
-    &_img {
-      max-width: 50%;
-      height: 935px;
-    }
-  }
 }
