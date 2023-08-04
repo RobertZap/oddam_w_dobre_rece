@@ -9,6 +9,7 @@ function SimpleSectionLayout() {
         <SimpleSection />
       </div>
       <SimpleSectionColumns />
+
       <div>
         <SimpleSectionButton />
       </div>
