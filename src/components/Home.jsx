@@ -14,9 +14,6 @@ function Home() {
     return (
         <>
             <div className="home_container">
-                <div className="computer_img">
-                    <HomeImg />
-                </div>
                 <div className="login_container">
                     <div className="login">
                         <LoginSection />
