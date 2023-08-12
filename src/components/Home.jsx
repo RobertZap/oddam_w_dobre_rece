@@ -2,13 +2,13 @@ import LoginSection from "./LoginSection.jsx";
 import Nav from "./Nav.jsx";
 
 import "/src/scss/Home.scss";
-import HomeImg from "./HomeImg.jsx";
 import ParagraphSection from "./ParagraphSectrion.jsx";
 import Decoration from "./Decoration.jsx";
 import CollectionSection from "./CollectionSection.jsx";
 import ScoreSection from "./ScoreSection.jsx";
 import SimpleSectionLayout from "./SimpleSectionLayout.jsx";
 import About from "./About.jsx";
+import WhoWeHelpSection from "./WhoWeHelpSection.jsx";
 
 function Home() {
     return (
@@ -39,6 +39,7 @@ function Home() {
             </div>
             <SimpleSectionLayout />
             <About />
+            <WhoWeHelpSection />
         </>
     );
 }
