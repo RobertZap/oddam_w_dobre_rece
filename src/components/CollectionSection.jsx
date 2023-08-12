@@ -5,7 +5,8 @@ function CollectionSection() {
         <div className="collection_container">
             <a href="/login" className="first_collection">
                 ODDAJ
-                <br /> RZECZY
+                <br />
+                  RZECZY
             </a>
             <a href="/login" className="second_collection">
                 ZORGANIZUJ
