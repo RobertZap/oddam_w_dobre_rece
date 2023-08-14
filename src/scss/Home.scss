@@ -31,9 +31,12 @@
         }
 
         .right_side_section {
-            position: relative;
-            left: 300px;
             font-weight: lighter;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            left: 950px;
+            margin-top: 125px;
         }
     }
 }

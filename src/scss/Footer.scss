@@ -1,0 +1,18 @@
+.footer_container {
+    background: center url("src/assets/Background-Contact-Form.jpg") content-box
+        no-repeat;
+    height: 1026px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+
+    .footer_form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        position: absolute;
+    }
+}

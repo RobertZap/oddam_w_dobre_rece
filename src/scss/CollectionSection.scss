@@ -1,8 +1,8 @@
 .collection_container {
     display: flex;
-    margin-top: 78px;
-    position: absolute;
-    left: 575px;
+    justify-content: space-around;
+    position: relative;
+    margin: 0 auto;
 
     .first_collection {
         border: 1px solid black;
