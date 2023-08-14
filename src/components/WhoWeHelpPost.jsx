@@ -8,6 +8,9 @@ function WhoWeHelpPost({ post, loading }) {
             {post.map((post) => (
                 <li>{post.title}</li>
             ))}
+            {post.map((post) => (
+                <li>{post.body}</li>
+            ))}
         </ul>
     );
 }

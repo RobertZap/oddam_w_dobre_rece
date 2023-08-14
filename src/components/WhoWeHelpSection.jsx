@@ -8,14 +8,12 @@ function WhoWeHelpSection() {
     const [posts, setPosts] = useState([]);
     const [loading, setLoading] = useState(false);
     const [currentPage, setCurrentPage] = useState(1);
-    const [postsPerPage] = useState(10);
+    const [postsPerPage] = useState(1);
 
     useEffect(() => {
         const fetchPosts = async () => {
             setLoading(true);
-            const res = await axios.get(
-                "https://jsonplaceholder.typicode.com/posts",
-            );
+            const res = await axios.get("http://localhost:3000/employees");
             setPosts(res.data);
             setLoading(false);
         };
