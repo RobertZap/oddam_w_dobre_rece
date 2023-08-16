@@ -1,3 +1,5 @@
+import "/src/scss/WhoWeHelpPagination.scss";
+
 function WhoWeHelpPagination({ postPerPage, totalPosts, paginate }) {
     const pageNumbers = [];
 
