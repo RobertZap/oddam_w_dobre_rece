@@ -1,0 +1,55 @@
+.form {
+    &_first_section {
+        display: flex;
+
+        .form_text {
+            font-size: 16px;
+
+            &_input {
+                background: transparent;
+                border: transparent;
+                font-weight: lighter;
+                width: 256px;
+                border-bottom: 1px solid black;
+            }
+        }
+
+        .form_mail {
+            margin-left: 16px;
+            font-size: 16px;
+
+            &_input {
+                background: transparent;
+                border: transparent;
+                font-weight: lighter;
+                width: 256px;
+                border-bottom: 1px solid black;
+            }
+        }
+    }
+
+    &_area {
+        margin-top: 40px;
+        font-size: 16px;
+
+        &_input {
+            background: transparent;
+            border: transparent;
+            font-weight: lighter;
+            height: 98px;
+            width: 528px;
+            border-bottom: 1px solid black;
+        }
+    }
+
+    &_button {
+        display: flex;
+        position: relative;
+        left: 390px;
+        margin-top: 44px;
+        padding: 13px 52px;
+        border: 1px solid black;
+        background-color: transparent;
+        font-weight: lighter;
+    }
+}

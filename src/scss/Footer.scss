@@ -12,7 +12,12 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: end;
+        align-items: center;
         position: absolute;
+        margin-right: 150px;
+
+        .footer_text {
+            font-size: 38px;
+        }
     }
 }
