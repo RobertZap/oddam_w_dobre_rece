@@ -1,0 +1,14 @@
+.who_container {
+    height: 1012px;
+    text-align: center;
+
+    .who_paragraph {
+        font-size: 38px;
+        margin-top: 70px;
+    }
+
+    .who_pagination {
+        display: inline;
+        cursor: pointer;
+    }
+}

@@ -2,8 +2,6 @@ import LoginSection from "./LoginSection.jsx";
 import Nav from "./Nav.jsx";
 
 import ParagraphSection from "./ParagraphSectrion.jsx";
-import Decoration from "./Decoration.jsx";
-import CollectionSection from "./CollectionSection.jsx";
 import ScoreSection from "./ScoreSection.jsx";
 import SimpleSectionLayout from "./SimpleSectionLayout.jsx";
 import About from "./About.jsx";
@@ -11,6 +9,9 @@ import WhoWeHelpSection from "./WhoWeHelpSection.jsx";
 import Footer from "./Footer.jsx";
 
 import "/src/scss/Home.scss";
+import Copyright from "./Copyright.jsx";
+import FacebookButton from "./FacebookButton.jsx";
+import InstagramButton from "./InstagramButton.jsx";
 
 function Home() {
     return (
@@ -25,8 +26,6 @@ function Home() {
                     </div>
                     <div className="right_side_section">
                         <ParagraphSection />
-                        <Decoration />
-                        <CollectionSection />
                     </div>
                 </div>
             </div>
@@ -36,7 +35,28 @@ function Home() {
             <SimpleSectionLayout />
             <About />
             <WhoWeHelpSection />
-            <Footer />
+            <div className="footer">
+                <div className="footer_form">
+                    <Footer />
+                </div>
+                <div className="footer_copyright">
+                    <Copyright />
+                </div>
+                <div className="footer_social">
+                    <a
+                        href="http://www.facebook.com"
+                        className="facebook_button"
+                    >
+                        <FacebookButton />
+                    </a>
+                    <a
+                        href="http://www.instagram.com"
+                        className="instagram_button"
+                    >
+                        <InstagramButton />
+                    </a>
+                </div>
+            </div>
         </>
     );
 }

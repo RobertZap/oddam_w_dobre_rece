@@ -35,12 +35,29 @@ function Nav() {
             >
                 O nas
             </Link>
-            <a href="#" className="org_button">
+
+            <Link
+                to="org"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+                onClick={move}
+                className="org_button"
+            >
                 Fundacja i organizacje
-            </a>
-            <a href="#" className="contact_button">
+            </Link>
+            <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+                onClick={move}
+                className="contact_button"
+            >
                 Kontakt
-            </a>
+            </Link>
         </div>
     );
 }

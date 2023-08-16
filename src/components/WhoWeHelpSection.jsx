@@ -4,6 +4,8 @@ import { useEffect, useState } from "react";
 import WhoWeHelpPost from "./WhoWeHelpPost.jsx";
 import WhoWeHelpPagination from "./WhoWeHelpPagination.jsx";
 
+import "/src/scss/WhoWeHelpSection.scss";
+import Decoration from "./Decoration.jsx";
 function WhoWeHelpSection() {
     const [posts, setPosts] = useState([]);
     const [loading, setLoading] = useState(false);
@@ -28,13 +30,17 @@ function WhoWeHelpSection() {
     const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
     return (
-        <div className="conteiner">
+        <div className="who_container" id="org">
+            <p className="who_paragraph">Komu pomagamy?</p>
+            <Decoration />
+            <div className="who_pagination">
+                <WhoWeHelpPagination
+                    postPerPage={postsPerPage}
+                    totalPosts={posts.length}
+                    paginate={paginate}
+                />
+            </div>
             <WhoWeHelpPost post={currentPosts} loading={loading} />
-            <WhoWeHelpPagination
-                postPerPage={postsPerPage}
-                totalPosts={posts.length}
-                paginate={paginate}
-            />
         </div>
     );
 }
